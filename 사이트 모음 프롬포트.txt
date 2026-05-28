@@ -1,0 +1,63 @@
+링크가 모아져 있는, 버튼을 누르면 해당 사이트로 이동하는 웹페이지를 만들거야
+
+
+디자인 및 UI/UX 요구사항
+1. 테마: 호요버스 특유의 세련되고 미래지향적인 느낌(어두운 다크 모드 배경에 세련된 블루/네온 포인트 컬러 사용).
+2. 레이아웃: 전체 화면은 그리드(Grid) 또는 카드(Card) 형태로 배치하고, 카테고리(HoYoverse, Genshin Impact, Honkai: Star Rail, Zenless Zone Zero)별로 구역을 명확히 나눠줘.
+3. 버튼 스타일: 텍스트 링크가 아니라, 마우스를 올리면(Hover) 색이 변하거나 살짝 커지는 애니메이션 효과가 들어간 고급스러운 '버튼' 형태로 만들어줘.
+4. 반응형 웹: PC 화면뿐만 아니라 모바일 스마트폰 화면에서도 카드가 깨지지 않고 세로로 이쁘게 정렬되도록 CSS(Media Query)를 적용해줘.
+
+
+사이트의 카테고리는 HoYoverse, Genshin Impact, Honkai: Star Rail, Zenless Zone Zero 고 아래는 각 카테고리에 포함되어 있는 사이트의 링크야 이때 괄호 안에 있는 텍스트를 누르면 해당 사이트로 이동하도록 만들어
+
+HoYoverse
+https://www.mihoyo.com/ (miHoYo)
+https://www.hoyoverse.com/ko-kr (HoYoverse)
+https://www.hoyolab.com/home (HoYoLAB)
+https://hoyoplay.hoyoverse.com/ (HoYoPlay)
+
+Genshin Impact
+https://genshin.hoyoverse.com/ko/home (Genshin Impact)
+https://play.google.com/store/apps/details?id=com.miHoYo.GenshinImpact (Google Play)
+https://www.youtube.com/@Genshinimpact_KR (YouTube)
+https://x.com/genshinimpactkr (X)
+
+Honkai: Star Rail
+https://hsr.hoyoverse.com/ko-kr/ (Honkai: Star Rail)
+https://play.google.com/store/apps/details?id=com.HoYoverse.hkrpgoversea (Google Play)
+https://www.youtube.com/channel/UCH33CJMcI0XZUpIhWRHiUuw (YouTube)
+https://x.com/honkaisr_kr (X)
+
+Zenless Zone Zero
+https://zenless.hoyoverse.com/ko-kr/ (Zenless Zone Zero)
+https://play.google.com/store/apps/details?id=com.HoYoverse.Nap (Google Play)
+https://www.youtube.com/channel/UCmry1hfaRHI_iTfxUMhC8mA (YouTube)
+https://x.com/ZZZ_KO (X)
+
+
+위 조건에 맞는 완벽한 index.html 전체 코드를 작성해줘. 코드 블록에 담아서 한 번에 복사할 수 있게 해줘.
+
+
+
+1차 수정
+
+HoYoverse 아래에 'Honkai Impact 3rd' 카테고리를 추가하고, 위와 같은 방식으로 아래 링크를 추가해
+
+https://honkaiimpact3.hoyoverse.com/kr/ko-kr/fab (Honkai Impact 3rd)
+https://play.google.com/store/apps/details?id=com.miHoYo.bh3korea (Google Play)
+https://www.youtube.com/channel/UCko6H6LokKM__B03i5_vBQQ (YouTube)
+https://x.com/HonkaiImpact3kr (X)
+
+또한 붕괴3은 핑크색으로 해줘
+
+
+
+2차 수정 (제미나이 피드백 이후)
+
+447번째 줄? 그니까 맨 아래 글씨 있잖아
+PRODUCED BY 2712 · AI ASSISTED WEB PROJECT
+으로 바꿔줘
+
+맨 위의 호요버스 유니버스 아래 글씨도
+호요버스와 그 게임들의 공식 채널을 한 곳에서
+으로도 바꿔
